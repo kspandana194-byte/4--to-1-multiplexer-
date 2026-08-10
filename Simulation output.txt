@@ -1,0 +1,2 @@
+iverilog -o mux_sim mux4to1.v mux4to1_tb.v
+vvp mux_sim
